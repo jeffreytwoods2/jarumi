@@ -68,7 +68,7 @@
             <!--Img Col-->
             <div class="w-full lg:w-2/5">
                 <!-- Big profile image for side bar (desktop) -->
-                <img src="{{ asset('img/hermosa.jpeg') }}" alt="Photo of Jarumi" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
+                <img src="{{ asset('img/hermosa.jpeg') }}" alt="Photo of Jarumi" id="pic-large" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
                 <!-- Image from: http://unsplash.com/photos/MP0IUfwrn0A -->
                 
             </div>
@@ -97,21 +97,27 @@
             
             toggle.addEventListener('click', () => {
 
-            if (body.classList.contains('text-gray-900')) {
-                toggle.innerHTML = "☀️";
-                body.classList.remove('text-gray-900');
-                body.classList.add('text-gray-100');
-                profile.classList.remove('bg-white');
-                profile.classList.add('bg-gray-900');
-            } else
-            {
-                toggle.innerHTML = "🌙";
-                body.classList.remove('text-gray-100');
-                body.classList.add('text-gray-900');
-                profile.classList.remove('bg-gray-900');			
-                profile.classList.add('bg-white');
-                
-            }
+                if (body.classList.contains('text-gray-900')) {
+                    toggle.innerHTML = "☀️";
+                    body.classList.remove('text-gray-900');
+                    body.classList.add('text-gray-100');
+                    body.removeAttribute("style");
+                    body.classList.add("bg-gray-900");
+                    profile.classList.remove("shadow-2xl");
+                    profile.classList.remove('bg-white');
+                    profile.classList.add('bg-gray-900');
+                } else
+                {
+                    toggle.innerHTML = "🌙";
+                    body.classList.remove('text-gray-100');
+                    body.classList.remove("bg-gray-900");
+                    body.setAttribute("style", "background-image: url({{ asset('img/background.svg') }});");
+                    body.classList.add('text-gray-900');
+                    profile.classList.remove('bg-gray-900');			
+                    profile.classList.add('bg-white');
+                    profile.classList.add("shadow-2xl");
+                    
+                }
             });
             
         </script>
