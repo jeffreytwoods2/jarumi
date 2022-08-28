@@ -48,9 +48,9 @@
                         <button class="bg-green-700 hover:bg-green-900 mb-2 lg:mb-0 text-white font-bold py-2 px-4 rounded-full">
                             Listen to my podcast
                         </button> 
-                        <button class="bg-green-700 hover:bg-green-900 mb-2 lg:mb-0 text-white font-bold py-2 px-4 rounded-full">
+                        <a href="https://www.linkedin.com/in/jarumi-woods-382923107/"><button class="bg-green-700 hover:bg-green-900 mb-2 lg:mb-0 text-white font-bold py-2 px-4 rounded-full">
                             LinkedIn
-                        </button> 
+                        </button></a>
                     </div>
 
                     <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
