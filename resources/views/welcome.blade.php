@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Jarumi Woods is a dual-language immersion teacher at Union Middle School in Sandy, Utah.">
+        <meta name="description" content="Jarumi Woods is a dual-language immersion teacher at Union Middle School in Sandy, Utah." />
         <meta property="og:title" content="Jarumi Woods - Spanish DLI" />
         <meta property="og:site_name" content="jarumi.soy" />
         <meta property="og:image" content="{{ asset('img/hermosa.jpeg') }}" />
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
         <link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.png') }}">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
 
         <title>Jarumi Woods - Spanish DLI</title>
 
