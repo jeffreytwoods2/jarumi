@@ -7,6 +7,7 @@
         <meta property="og:title" content="Jarumi Woods - Spanish DLI" />
         <meta property="og:site_name" content="jarumi.soy" />
         <meta property="og:image" content="{{ asset('img/hermosa.jpeg') }}" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
 
         <title>Jarumi Woods - Spanish DLI</title>
 
