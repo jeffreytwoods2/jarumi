@@ -8,7 +8,7 @@
         <meta property="og:site_name" content="jarumi.soy" />
         <meta property="og:image" content="{{ asset('img/hermosa.jpeg') }}" />
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
-        <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
+        <link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.png') }}">
 
         <title>Jarumi Woods - Spanish DLI</title>
 
