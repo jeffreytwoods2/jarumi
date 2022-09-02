@@ -3,6 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Jarumi Woods is a dual-language immersion teacher at Union Middle School in Sandy, Utah.">
+        <meta property="og:title" content="Jarumi Woods - Spanish DLI" />
+        <meta property="og:site_name" content="jarumi.soy" />
+        <meta property="og:image" content="{{ asset('img/hermosa.jpeg') }}" />
 
         <title>Jarumi Woods - Spanish DLI</title>
 
